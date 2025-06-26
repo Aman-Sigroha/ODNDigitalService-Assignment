@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+
+# Input and output images (user data, not code)
+input/
+output/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.pyc
+__pycache__/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# CSV reports (optional, remove if you want to keep border_report.csv in repo)
+border_report.csv 
