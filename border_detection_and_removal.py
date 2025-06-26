@@ -21,7 +21,6 @@ def adaptive_border_scan(image, color_thresh=25, line_consistency=0.9):
     top_left_corner = arr[0, 0]
     top_right_corner = arr[0, w-1]
     bottom_left_corner = arr[h-1, 0]
-    bottom_right_corner = arr[h-1, w-1]
 
     # --- Top Border ---
     top = 0
